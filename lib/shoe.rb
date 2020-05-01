@@ -4,8 +4,6 @@ class Shoe
 
     BRANDS = []
 
-    #conditional ? action_if_true : action_if_false
-
   def initialize(brand)
     @brand = brand
     if BRANDS.include?(brand)
