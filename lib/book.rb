@@ -1,3 +1,4 @@
+
 class Book
   attr_accessor :author, :page_count
   attr_reader :title, :genre
@@ -17,3 +18,5 @@ class Book
     GENRES << genre
   end
 end
+
+#book = Book.new
